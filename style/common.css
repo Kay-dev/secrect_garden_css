@@ -1,0 +1,128 @@
+/* zheng wei 8960392 */
+html{
+    background-image: url("../img/garden618.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 60%;
+    background-color: #7D8F69;
+    margin: 20px auto;
+    border: 6px solid #45765f;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #dde6ba;
+    font-family: Segoe Script;
+}
+
+a:hover{
+    color: pink;
+}
+
+button:hover{
+    box-shadow: 0 0 10px pink;
+}
+
+.logo{
+    width: 70px;
+    margin: 5px 10px;
+}
+
+.title{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main{
+    padding: 20px 50px;
+}
+
+main > div{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A9AF7E;
+    font-size: 1.2em  ;
+    padding: 10px 0;
+}
+
+nav span  a{
+    padding: 10px;
+}
+
+nav span:hover{
+    color: pink;
+}
+
+nav span > div{
+    background-color: #444;
+}
+
+nav span:hover > div{
+    display: block;
+}
+
+nav span > div{
+    position: absolute;
+    margin-top: 10px;
+    width: 150px;
+    display: none;
+}
+
+nav span  div  div{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+nav span div div:hover{
+    background-color: #555;
+}
+
+
+footer{
+    margin-top: auto;
+    background-color: #557153;
+    color: #EBEBEB;
+}
+
+
+footer > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 5px 50px;
+}
+
+footer > div > div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    background-color: #A9AF7E;
+    border: solid 2px #A9AF7E;
+    width: auto;
+    max-width: 100px;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

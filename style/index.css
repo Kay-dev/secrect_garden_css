@@ -1,0 +1,61 @@
+/* zheng wei 8960392 */
+img{
+    width: 100%;
+}
+
+img.h_scroll{
+    height: 360px;
+}
+
+
+img.fionnuala{
+    width: 300px;
+    object-fit: contain;
+    clip-path: polygon(78px 88px, 77.00% 98px, 99.33% 43.04%, 93.67% 76.51%, 23px 76.73%, 5% 40%);
+}
+
+img.rolf{
+    width: 300px;
+    object-fit: contain;
+    clip-path: polygon(14px 71px, 80.33% 68px, 95% 55%, 87.33% 78.92%, 19px 81.7%, 9.67% 53.09%);
+}
+
+
+
+article{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1;
+    margin: 10px;
+    background-color: #6C7D5C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover{
+    box-shadow: 0 0 10px pink;
+}
+
+.card img{
+    width: 100%;
+}
+
+aside{
+    text-align: center;
+}
+
+
+
+.card ul{
+    text-align: left;
+}

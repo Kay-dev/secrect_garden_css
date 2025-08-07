@@ -1,0 +1,51 @@
+/* zheng wei 8960392 */
+img.h_scorll{
+    width: 100%;
+}
+
+.player{
+    margin-left: 20px;
+}
+
+section.clear{
+    text-align: center;
+    margin-top: 50px;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th{
+    border-bottom: 1px solid black;
+}
+
+td{
+    padding: 10px 0;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 20% 30%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    text-align: left;
+}
+
+div.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / 2 span;
+}
+
+section.message h3{
+    text-align: center;
+}

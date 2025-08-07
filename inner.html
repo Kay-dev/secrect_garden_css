@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!-- zheng wei 8960392 -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/garden_pic.jpe">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/inner.css">
+    <title>Inner Page</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/garden_pic.jpe" alt="logo" class="logo">
+        <h1 class="title">Secret Garden</h1>
+    </header>
+
+    <nav>
+        <span><a href="index.html">Home</a></span>
+        <span>
+            <a>Music</a>
+            <div>
+                <div><a href="inner.html#album">Our Music</a></div>
+                <div><a href="inner.html#video">Video</a></div>
+            </div>
+        </span>
+        <span><a>Contact</a></span>
+        <span><a>About Us</a></span>
+    </nav>
+
+    <img src="img/SG_Sacred_Night_FB_topp.jpg" alt="image" class="h_scroll">
+
+    <main>
+        <div>
+            <section>
+                <h3>Earthsongs</h3>
+                <p>"Sleepsong" features artist Fionnuala Gill (Saoirse). "Grace" features Ole Edvard Antonsen on trumpet
+                    and piccolo-trumpet.</p>
+                <p>Lyrics for "Always There", "Sleepsong", "Half a World Away", and "Raise Your Voices" were written by
+                    Brendan Graham. "Half a World Away" features vocals by Jan Werner Danielsen, and is a lyrical
+                    version of the instrumental opening track "Sometimes When It Rains".</p>
+            </section>
+            <section class="player">
+                <video id="video" width="480" height="270" poster="./img/poster.webp" playsinline controls tabindex="-1" alt="Sleppsong video">
+                    <source src="./media/Sleepsong Live at Kilden 2015_480p.mp4" type="video/mp4" />
+
+                    <div class="err">
+                        <p>
+                            Your reading system does not support the video
+                            element. Please try the link to open the video in a
+                            browser.
+                        </p>
+                    </div>
+                </video>
+            </section>
+
+
+        </div>
+
+        <section class="clear">
+            <h3>Album Songs</h3>
+            <table id="album">
+                <thead>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Duration</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Sometimes When It Rains</td>
+                        <td>Rolf Løvland,Secret Garden</td>
+                        <td>4:38</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Fields Of Fortune</td>
+                        <td>Rolf Løvland Secret Garden,John Finucane,Irish Film Orchestra</td>
+                        <td>4:11</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>The Reel</td>
+                        <td>Rolf Løvland,Secret Garden</td>
+                        <td>3:25</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Always There - Int Version</td>
+                        <td>Rolf Løvland,Secret Garden,Brendan Graham</td>
+                        <td>4:45</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>When Darkness Falls ( Ode To Kvaase)</td>
+                        <td>Rolf Løvland,Secret Garden</td>
+                        <td>5:27</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="message">
+            <h3>Leave a message</h3>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="area">Area</label>
+                <select name="area" id="area">
+                    <optgroup label="Europe">
+                        <option value="UK">UK</option>
+                        <option value="Germany">Germany</option>
+                        <option value="France">France</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Korea">Korea</option>
+                    </optgroup>
+                </select>
+
+                <label for="Mood">How's your mood?</label>
+                <div>
+                    <input type="checkbox" name="Mood" id="happy" value="Happy">
+                    <label for="happy">Happy</label>
+                    <input type="checkbox" name="Mood" id="sad" value="Sad">
+                    <label for="sad">Sad</label>
+                    <input type="checkbox" name="Mood" id="calm" value="Calm">
+                    <label for="calm">Calm</label>
+                </div>
+
+                <label for="anonymous">Anonymous message?</label>
+                <div>
+                    <input type="radio" name="anonymous" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="anonymous" id="no" value="no">
+                    <label for="no">No</label>
+                </div>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+
+                <div class="button">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <div>
+                <h4>Home</h4>
+                <a>Shop</a>
+                <a>About</a>
+                <a>Contact</a>
+            </div>
+            <div>
+                <h4>Music</h4>
+                <a>Music</a>
+                <a>Tour</a>
+                <a>Show</a>
+            </div>
+            <div>
+                <h4>Social</h4>
+                <a>Instgram</a>
+                <a>YouTube</a>
+                <a>Facebook</a>
+            </div>
+        </div>
+        <div>
+            &copy;Copyright - Zheng Wei - zwei0392@conestogac.on.ca
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
